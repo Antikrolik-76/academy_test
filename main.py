@@ -3,7 +3,8 @@ def division(a: int|float, b: int|float):
 
 
 def main():
-    d = division(1, 2)
+    for i, j in enumerate([1, 2, 3], 1):
+    d = division(i, j)
 
     print(d)
 
